@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head bgcolor='#2C2C2C'>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<header><img src="Images/Why Play Video Games Banner.jpg" width="1280" height="439" alt=""/></header>
+<meta charset="utf-8">
+<title>Why Play Video Games </title>
+<link href="Home CSS.css" rel="stylesheet" type="text/css">
+	
+</head>
+
+<body bgcolor="#2C2C2C" onLoad="MM_preloadImages('Images/Controller_Hover.png')">
+	
+<div id="wrapper">
+	<nav>
+			<ul>
+			<li><a href="WhyPlayVideoGamesHome.html">Home</a></li>
+			<li><a href="WhyPlayVideoGamesGamesToReccomend.html">Games To Reccomend</a></li>
+			<li><a href="WhyPlayVideoGamesGamingEquipment.html">Gaming Equipment</a></li>
+			<li><a href="WhyPlayVideoGamesAboutMe.html">About Me</a></li>
+			</ul>
+	</nav>
+  <h1>Introduction to Video Games</h1>
+  <p> Ever since the 1980’s playing video games has been a prominant hobby for millions of people world wide. Over the course of time with hardware improvements video games have seen the evolution of its stories, gameplay, music, competitve gameplay.</p>
+  <p>&nbsp;Many can play video Games for many different reasons. Some people just want a form of escapism, want to experience a story in a different media, explore at a casual pace, or compete with others. These themes also create another reason to play video games which would be the community aspect of this form of media.&nbsp;</p>
+  <p>&nbsp;Sometimes when an person gets back from work , school, or a long event they just want to put their feet up, and think about something else. They may try to divert their attention by playing their favorite game as a form of excapism. </p>
+	
+<footer>
+  <a href="WhyPlayVideoGamesGamingEquipment.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Controller','','Images/Controller_Hover.png',1)"><img src="Images/Controller_No_Hover.png" alt="" width="300" height="400" id="Controller" border="0"></a> </footer>
+</div>
+</body>
+</html>

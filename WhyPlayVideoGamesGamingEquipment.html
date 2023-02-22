@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head bgcolor='#2C2C2C'>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<header><img src="Images/Why Play Video Games Banner.jpg" width="1280" height="439" alt=""/></header>
+<meta charset="utf-8">
+<title>Why Play Video Games </title>
+<link href="Video Game Equipment CSS.css" rel="stylesheet" type="text/css">
+	
+</head>
+
+<body bgcolor="#2C2C2C" onLoad="MM_preloadImages('Images/Controller_Hover.png')">
+	
+<div id="wrapper">
+	<nav>
+			<ul>
+			<li><a href="WhyPlayVideoGamesHome.html">Home</a></li>
+			<li><a href="WhyPlayVideoGamesGamesToReccomend.html">Games To Reccomend</a></li>
+			<li><a href="WhyPlayVideoGamesGamingEquipment.html">Gaming Equipment</a></li>
+			<li><a href="WhyPlayVideoGamesAboutMe.html">About Me</a></li>
+			</ul>
+	</nav>
+  <h1>Gaming Equipment</h1>
+  <p> To be able to play video games you may need a few things. Some basics would include having electronic devices such as a cell phone, Xbox, switch, playstation, or a computer. Some other useful items to play games on these systems could include a varity of controllers or headphones so that people around you don’t get annoyed.</p>
+	
+<p> There are many different control options. You could use keybord and mouse. There are many different controllers like bongo drums, wii remotes, and traditonal controllers.</p>
+
+<p>There are many resources that you can use to better your gaming experience such as apps like discord to talk to teammates in competitive team games. </p>
+	
+<footer>
+  <a href="WhyPlayVideoGamesGamingEquipment.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Controller','','Images/Controller_Hover.png',1)"><img src="Images/Controller_No_Hover.png" alt="" width="300" height="400" id="Controller" border="0"></a> </footer>
+</div>
+</body>
+</html>

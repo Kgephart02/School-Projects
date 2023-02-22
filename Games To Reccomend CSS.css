@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+#wrapper {
+    width: 960px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    position: relative;
+}
+nav {
+    height: 100px;
+    width: 960px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #FF0004;
+	font-family: Calibri, Helvetica, sans-serif;
+}
+
+li {float:left;
+width: 240px;
+text-align:center;
+color: #FFFFFF}
+
+a {color: #FFFFFF;
+font-size: 20px;
+font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"}
+
+ul {width:960px;
+margin:auto;
+list-style:none;
+background-color:#FF0004;
+opacity:0.50; 
+padding-top:5px;
+padding-bottom: 15px;
+height:20px;}
+
+h1 {text-align: center;
+font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+font-size: 500;
+color:#FFFFFF}
+
+p {text-align: left;
+font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+font-size: 18px;
+color: #FFFFFF}
+
+#Pokemon {image-orientation: right;
+}
